@@ -819,7 +819,7 @@ local function OnPopulateToolPanel(panel)
 end
 
 function OnPopulateToolMenu()
-    spawnmenu.AddToolMenuOption("Utilities", "Player", "SmartSnapSettings", "SmartSnap", "", "", OnPopulateToolPanel, {
+    spawnmenu.AddToolMenuOption("Utilities", "User", "SmartSnapSettings", "SmartSnap", "", "", OnPopulateToolPanel, {
         SwitchConVar = 'snap_enabled'
     })
 end
